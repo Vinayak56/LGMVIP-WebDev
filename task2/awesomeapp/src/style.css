@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  background: #7C83FD;
+  font-size: 62.5%;
+
+}
+h1{
+  color: #3E215D;
+  text-shadow: 0.2;
+}
+.copy{
+  margin-bottom: 1%;
+  font-size: 2rem;
+}
+.list{
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 5rem;
+}
+.list h1{
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.des{
+  text-align: center;
+}
+.des .de{
+  margin: 5rem auto;
+}
+.portF{
+  width: 20vw;
+  height: 20vw;
+  background-color: #D9DD6B;
+  text-align:center;
+  justify-content: space-between;
+  border-radius: 20%;
+  transition: all 0.2 ease-in-out;
+  padding:2rem;
+  margin:5rem;
+  display:inline-block;
+  border-width:.25rem;
+  box-shadow:4px 4px 8px 0px rgba( 0, 0, 0, 0.4 );
+  position: relative;
+}
+.portF img{
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+.portF h2{
+  font-size: 3rem;
+  position: absolute;
+  top: 40%;
+}
+.portF h3{
+  font-size: 1.6rem;
+  position: absolute;
+  top: 60%;
+}
+.portF:hover{
+  background-color: rgb(73, 4, 138);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  box-shadow: 15px 14px 20px -1px rgba(0, 0, 0, 0.897);
+  transform: scale(1.2);
+}
+
+@media  screen and (max-width: 700px) {
+  .des{
+    display: block;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  .portF{
+    width: 80%;
+    height: 40vh;
+
+  }
+}
